@@ -75,4 +75,4 @@ if __name__ == "__main__":
     print("Starting Python Flask Server For Home Price Prediction...")
     util.load_saved_artifacts()
     print("app.run -- started")
-    app.run()
+    app.run(debug=True)
